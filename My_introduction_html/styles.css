@@ -1,0 +1,40 @@
+body {
+    font-weight: bold;
+    color: black; 
+}
+
+#experience .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, auto); 
+    gap: 10px; 
+}
+
+#experience.image-grid img {
+    width: 50%; 
+    height: 50%; 
+}
+
+.image-container {
+    max-width: 200px; 
+}
+
+.experience-image {
+    max-width: 50%;
+    height: auto; 
+}
+
+.columns-container .column img {
+    max-width: 75%; 
+    height: auto; 
+}
+
+
+.columns-container .column:first-child {
+    margin-right: 10px; 
+}
+
+
+h1, h2, p, label {
+    color: black; 
+}
